@@ -12,7 +12,7 @@ def speaker(tx):
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 # Reading image 
-img = cv2.imread("img.png")
+img = cv2.imread("sample.png")
 img=cv2.resize(img,(300,300))
 
 # Convert to RGB 
